@@ -47,6 +47,7 @@ public class StatsServiceTest {
         long actual = service.MinAverageMonth(sales);
         long expected = 5;
     }
+
     @Test
     public void TestMoreAverageMonth() {
         StatsService service = new StatsService();
